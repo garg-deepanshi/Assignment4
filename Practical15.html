@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Counter page
+        </title>
+        <style>
+            body{
+                background-color: gray;
+            }
+            .text{
+                
+                text-align:center;
+                color:white;
+                font-size:xx-large;
+                margin-top:50px;
+            }
+            button{
+                background-color: Yellow;
+                border-right: 3px solid #000;
+                border-bottom: 3px solid #000;
+                width:50px;
+                height:50px;
+                
+                margin:50px;
+                font-size: 30px;
+                
+            }
+            #dec{
+                background-color: palegoldenrod;
+            }
+            span{
+                color:yellow;
+                font-size: 40px;
+            }
+            
+        </style>
+    </head>
+    <body>
+<div class="text">
+<b>COUNTER</b>
+</div>
+<div style="text-align: center;">
+<button id="dec" onclick="decrease()">-</button>
+<span id="counter" >0</span>
+<button onclick="increase()">+</button>
+</div>
+        <script>
+            var i=0;
+  function increase(){
+        var x=document.getElementById('counter');
+        i=i+1;
+        x.innerText=i; 
+          if(i==0){
+            var y=document.getElementById('dec');
+            y.style.background = "palegoldenrod";
+          }
+          else{
+            var y=document.getElementById('dec');
+        y.style.background ="yellow";
+          }
+  }
+  function decrease(){
+        
+        var x=document.getElementById('counter');
+        if(i>0){
+            
+        i=i-1;
+        x.innerText=i;
+        if(i==0){
+            var y=document.getElementById('dec');
+            y.style.background = "palegoldenrod";
+          }
+          else{
+            var y=document.getElementById('dec');
+        y.style.background ="yellow";
+          }
+        }
+        
+        
+  }
+        </script>
+    </body>
+</html>
