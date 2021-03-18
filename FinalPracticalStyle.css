@@ -1,0 +1,43 @@
+body {
+    /* background-color: blue; */
+    background-image: url(https://media1.s-nbcnews.com/j/newscms/2020_36/3410036/smartphone-cases-kr-2x1-tease-200904_c4d4549b3dbf9771b70e47440dbb836a.fit-1000w.gif);
+}
+
+
+.container{
+        float: left;
+    padding: 50px;
+    margin-top: 150px;
+    width: 600px;
+    
+}
+.navbar{
+    
+    color: black;
+    padding: 5px;
+}
+i{
+    padding: 10px;
+}
+body{
+    color:black;
+}
+.nav-link{
+    color: black;
+    
+}
+.navbar-brand{
+    color: black;
+}
+ul{
+    float: right;
+    margin-left: 500px;
+}
+.backGImage{
+    background-color: black;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-blockchain-big-data-mobile-phone-technology-image_11331.jpg);
+}
+.bt-danger{
+    background-color: rgb(228, 95, 95);
+    border: rgb(228, 95, 95);
+}
